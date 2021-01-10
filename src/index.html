@@ -20,7 +20,53 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <div>Привет</div>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="header__logo">
+                    <a href="#" class="flex aic jcsb">
+                        <img src="./images/logo.svg" width="24" height="24" alt="logotype">
+                        <p>music box</p>
+                    </a>
+                </div>
+                <nav class="navigation">
+                    <ul class="menu flex aic">
+                        <li class="menu__item">
+                            <a class="menu__link  active" href="#page-description">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Каталог</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Исполнители</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <input type="text" placeholder="ПОИСК...">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="page-description" id="page-description">
+            <div class="container">
+                <h1 class="h1 text-center">онлайн музыка где угодно</h1>
+                <h2 class="h2 text-center">без ограничений</h2>
+                <p class="text-center">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+                <form class="form flex jcc">
+                    <input type="text" name="name" id="name">
+                    <label for="name">Имя</label>
+                    <input type="email" name="email" id="email">
+                    <label for="email">Email</label>
+                    <button type="submit">получить доступ</button>
+                </form>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>

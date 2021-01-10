@@ -6,3 +6,66 @@
 // Page styles
 @import './_main.scss';
 @import './_artist.scss';
+
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    @include text-1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: initial;
+    color: $white-color;
+}
+
+.flex {
+    display: flex;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m0a {
+    margin: 0 auto;
+}
+
+.h1 {
+    @include h1;
+    text-transform: uppercase;
+}
+
+.h2 {
+    @include h2;
+    text-transform: uppercase;
+}

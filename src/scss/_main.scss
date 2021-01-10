@@ -1,0 +1,70 @@
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    text-transform: uppercase;
+    padding-top: 25px;
+    background-color: transparent;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: $font-size-text-small;
+
+    a {
+        width: 99px;
+    }
+
+    .menu {
+        &__item {
+            margin-left: 24px;
+            &:nth-child(1) {
+                margin-left: 88px;
+            }
+        }
+
+        &__link {
+            color: $grey-color;
+
+            &.active {
+                color: $white-color;
+            }
+        }
+    }
+
+    .search {
+        margin-left: auto;
+
+        input {
+            padding: 5px 10px;
+            font-size: 13.3px;
+            line-height: 15.3px;
+            color: $placeholder-color;
+            width: 248px;
+            height: 25px;
+            box-sizing: border-box;
+            background-color: $dark-grey-color;
+            border: none;
+            border-radius: 50px;
+        }
+    }
+}
+
+.main {
+    .page-description {
+        padding-top: 200px;
+        padding-bottom: 205px;
+        background: url('../images/banner.png') no-repeat center center;
+        background-size: cover;
+
+        p {
+            margin-top: 32px;
+            @include text-1;
+            font-weight: 400;
+        }
+
+        form {
+            
+        }
+    }
+}
