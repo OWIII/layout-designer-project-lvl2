@@ -1,13 +1,13 @@
-$black-color: #08020D;
+$black-color: #08020d;
 $white-color: #fff;
-$light-grey-color: #E0E0E0;
-$grey-color: #CACACA;
-$dark-grey-color: #3C3B3D;
-$green-color: #34C176;
-$orange-color: #F89202;
-$purple-color: #5328A1;
-$red-color: #95390C;
-$text-color: #3C3B3D;
+$light-grey-color: #e0e0e0;
+$grey-color: #cacaca;
+$dark-grey-color: #3c3b3d;
+$green-color: #34c176;
+$orange-color: #f89202;
+$purple-color: #5328a1;
+$red-color: #95390c;
+$text-color: #3c3b3d;
 $placeholder-color: #757575;
 
 $font-size-h1: 60px;
@@ -25,59 +25,58 @@ $font-size-text-1: 16px;
 $font-size-text-small: 12,8px;
 
 @mixin h1 {
-    font-size: $font-size-h1;
-    line-height: 90px;
-    font-weight: 700;
+  font-weight: 700;
+  font-size: $font-size-h1;
+  line-height: 90px;
 }
 
 @mixin h2 {
-    font-size: $font-size-h2;
-    line-height: 57px;
-    font-weight: 700;
+  font-weight: 700;
+  font-size: $font-size-h2;
+  line-height: 57px;
 }
 
 @mixin h3 {
-    font-size: $font-size-h3;
-    line-height: 45px;
+  font-size: $font-size-h3;
+  line-height: 45px;
 }
 
 @mixin h4 {
-    font-size: $font-size-h4;
-    line-height: 27px;
+  font-size: $font-size-h4;
+  line-height: 27px;
 }
 
 @mixin text-7 {
-    font-size: $font-size-text-7;
-    line-height: 96px;
+  font-size: $font-size-text-7;
+  line-height: 96px;
 }
 
 @mixin text-6 {
-    font-size: $font-size-text-6;
-    line-height: 84px;
+  font-size: $font-size-text-6;
+  line-height: 84px;
 }
 
 @mixin text-5 {
-    font-size: $font-size-text-5;
-    line-height: 72px;
+  font-size: $font-size-text-5;
+  line-height: 72px;
 }
 
 @mixin text-4 {
-    font-size: $font-size-text-4;
-    line-height: 60px;
+  font-size: $font-size-text-4;
+  line-height: 60px;
 }
 
 @mixin text-3 {
-    font-size: $font-size-text-3;
-    line-height: 48px;
+  font-size: $font-size-text-3;
+  line-height: 48px;
 }
 
 @mixin text-2 {
-    font-size: $font-size-text-2;
-    line-height: 36px;
+  font-size: $font-size-text-2;
+  line-height: 36px;
 }
 
 @mixin text-1 {
-    font-size: $font-size-text-1;
-    line-height: 24px;
+  font-size: $font-size-text-1;
+  line-height: 24px;
 }
-
